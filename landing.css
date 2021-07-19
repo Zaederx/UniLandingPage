@@ -1,0 +1,95 @@
+.body {
+  background-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.header > span {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #9c1c1c !important;
+  color: white !important;
+}
+
+.logo {
+  height: 50px;
+}
+
+.main {
+  grid-row: 2;
+  padding-bottom: 300px;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.header > span {
+  font-size: x-large;
+}
+
+.tiles {
+  margin: auto;
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 5%;
+  overflow-x: scroll;
+}
+
+.tiles img {
+  width: 100%;
+}
+
+.tile {
+  display: inline-grid;
+  grid-template-rows: 2;
+  background-color: grey;
+  width: 32%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.tile-img {
+  grid-row: 1;
+}
+
+.tile-text {
+  grid-row: 2;
+  max-width: 100%;
+  padding-left: 10px;
+  color: white;
+}
+
+.footer-container {
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: gray;
+  color: white;
+  padding: 30px;
+}
+
+.footer-item1 {
+  grid-column: 1;
+}
+
+.footer-item2 {
+  grid-column: 2;
+}
+
+.footer-item3 {
+  grid-column: 3;
+}
+
+.footer-item4 {
+  grid-column: 4;
+}
+
+/*# sourceMappingURL=landing.css.map */
